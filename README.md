@@ -113,7 +113,7 @@ npm run dev:categorization
 Request (with cURL):
 ```
 curl --location 'http://127.0.0.1:5001/categorization' \
---header 'api-key: sk-svcacct-tKKATWjonRsAKSMzstTsCCSAmMkUAW7lgj-lXKExkl3dxh-bxWGwdgpo1VwvYOGqBxarZw8E4arZBMT3BlbkFJL9QB3m87mmGjlEgeIwL7Be-eZ_rYikurwjJLlQk9rY52vvX3MY_MEsn5lUiC74YhzF37PoSzz61S4A' \
+--header 'api-key: $API_KEY' \
 --header 'model: gpt-4o' \
 --header 'Content-Type: application/json' \
 --data '{
