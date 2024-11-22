@@ -21,6 +21,7 @@ As categorias consideradas são:
 - **INTERESTS**
 - **FINANCIAL_PRODUCTS**
 
+<br><br>
 
 ## Resumo geral
 
@@ -30,6 +31,7 @@ Este código cria uma API Express.js com uma rota POST no endpoint `/categorizat
 
 -> ETAPA 2: script que categoriza os comentários usando o modelo GPT-4o.
 
+<br><br>
 
 ## Estrutura do Projeto
 
@@ -47,11 +49,14 @@ Este código cria uma API Express.js com uma rota POST no endpoint `/categorizat
 📜 package-lock.json
 📜 package.json
 ```
+<br><br>
 
-### Pré-requisitos: 
+## Pré-requisitos: 
 
 - Obter uma api-key no site da OpenAI - https://platform.openai.com/api-keys
 
+
+<br><br>
 
 ## Instalação
 
@@ -59,9 +64,10 @@ Este código cria uma API Express.js com uma rota POST no endpoint `/categorizat
 npm install
 ```
 
-## Execução dos scripts
+<br><br>
 
-### Extração de dados
+
+## Rodando o projeto: Extração de dados
 
 1. Coloque o arquivo CSV de entrada com o nome `input.csv` na raiz do projeto
 
@@ -80,7 +86,6 @@ Observação: O arquivo CSV de entrada deve conter as seguintes colunas (entre o
 ID, COMENTARIO, CATEGORIA
 ```
 
-### Saída (extracted.json)
 O arquivo JSON de saída terá a seguinte estrutura:
 ```
 [
@@ -91,9 +96,9 @@ O arquivo JSON de saída terá a seguinte estrutura:
   }
 ]
 ```
+<br><br><br>
 
-
-### Categorização de dados
+## Categorização de dados
 
 1. Coloque a api-key da OpenAI com o nome `OPENAI_API_KEY` no arquivo `.env`
 
@@ -162,6 +167,7 @@ Response:
 }
 ```
 
+<br><br>
 ## Descrição das categorias
 
 - **ATTENDANCE**: Relacionado à qualidade do atendimento ao cliente, incluindo comportamento dos atendentes, cortesia e profissionalismo. Pode incluir situações de bom ou mau atendimento.
